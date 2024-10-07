@@ -13,10 +13,49 @@ html {
     font-family: "YekanBakh";
     font-size: 34px;
     font-weight: 700;
-    color: #003366;
+    color: #000000;
     border: none;
     width: 360px;
     height: 108px;
     box-shadow: 0px 8.64px 14.4px rgba(0, 0, 0, 0.25);
     border-radius: 144px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.NavBar a {
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    padding: 0 25px;
+}
+
+.NavBar .Center {
+    font-family: "YekanBakh";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 37.2px;
+    text-align: center;
+}
+
+.NavBar .Right {
+    font-family: "YekanBakh";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.73px;
+    text-align: center;
+}
+
+.SecondaryButton {
+    background-color: #FFD700;
+    font-family: "YekanBakh";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 37px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #000000;
+    border: none;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    width: 140px;
+    height: 75px;
 }
