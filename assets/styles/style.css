@@ -4,6 +4,10 @@ html {
     color: #000000;
 }
 
+a {
+    text-decoration: none;
+}
+
 .NavBar {
     background-color: #FFFFFF;
 }
@@ -25,7 +29,6 @@ html {
 .NavBar a {
     color: #000000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    text-decoration: none;
     padding: 0 25px;
 }
 
@@ -58,4 +61,38 @@ html {
     border-radius: 50px;
     width: 140px;
     height: 75px;
+}
+
+.ShelfItem .DownBar p {
+    font-family: "YekanBakh";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 37px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ShelfItem h3 {
+    font-family: "YekanBakh";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 50px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.AboutSectionItems img {
+    background: #FF6600;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.AboutSectionItems h3 {
+    font-family: "YekanBakh";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
