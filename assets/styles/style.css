@@ -66,6 +66,15 @@ a {
     height: 75px;
 }
 
+.ShelfItem{
+    border-radius: 25px;
+    background-color: #99CCFF;
+}
+
+.ShelfItem .ShelfItemPic{
+    border-radius: 25px;
+}
+
 .ShelfItem .DownBar p {
     font-family: "YekanBakh";
     font-weight: 700;
