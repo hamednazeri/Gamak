@@ -35,6 +35,10 @@ a {
     padding: 0 25px;
 }
 
+.SelectedNavBarItem {
+    color: #FF6600 !important;
+}
+
 .NavBar .Center {
     font-family: "YekanBakh";
     font-size: 24px;
@@ -66,16 +70,16 @@ a {
     height: 75px;
 }
 
-.ShelfItem{
+.VerticalShelfItem {
     border-radius: 25px;
     background-color: #99CCFF;
 }
 
-.ShelfItem .ShelfItemPic{
+.VerticalShelfItem .VerticalShelfItemPic {
     border-radius: 25px;
 }
 
-.ShelfItem .DownBar p {
+.VerticalShelfItem .DownBar p {
     font-family: "YekanBakh";
     font-weight: 700;
     font-size: 24px;
@@ -84,7 +88,7 @@ a {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.ShelfItem h3 {
+.VerticalShelfItem h3 {
     font-family: "YekanBakh";
     font-weight: 700;
     font-size: 32px;
@@ -92,6 +96,45 @@ a {
     color: #000000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.HorizontalShelfItem {
+    border-radius: 25px;
+    background-color: #99CCFF;
+}
+
+.HorizontalShelfItem .HorizontalShelfItemPic {
+    border-radius: 25px;
+}
+
+.HorizontalShelfItem .HorizontalShelfItemContent .DownBar p {
+    font-family: "YekanBakh";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 37px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.HorizontalShelfItem .HorizontalShelfItemContent h3 {
+    font-family: "YekanBakh";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 50px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.HorizontalShelfItem .HorizontalShelfItemContent p {
+    font-family: "YekanBakh";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 37px;
+    text-align: right;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 
 .AboutSectionItems img {
     background: #FF6600;
@@ -106,6 +149,58 @@ a {
     line-height: 44px;
     text-align: center;
     color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.SearchBar {
+    background: #99CCFF;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 18.75px;
+
+    font-family: "YekanBakh";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 50px;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.5);
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.SearchBar button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.SearchBar input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 6px 0px;
+    background: transparent;
+
+    text-align: center;
+    font-family: "YekanBakh";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 50px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.SearchBar input[type="text"]::placeholder {
+    text-align: center;
+    font-family: "YekanBakh";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 50px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
