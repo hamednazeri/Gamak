@@ -52,6 +52,10 @@ body {
     align-items: center;
 }
 
+.Header h2:nth-last-child(1) {
+    margin-bottom: 10vh;
+}
+
 .PrimaryButton {
     width: auto;
     height: 108px;
@@ -251,7 +255,7 @@ body {
     margin: 5vh 0;
 }
 
-.WrittenPage{
+.WrittenPage {
     margin: 0 5%;
     text-align: justify;
     text-justify: inter-word;
@@ -335,7 +339,7 @@ body {
         margin: 0;
         padding: 0;
     }
-    
+
     .HorizontalShelfItemContent {
         width: 230px;
         height: auto;
@@ -345,7 +349,7 @@ body {
 
     .SearchBar {
         width: 230px;
-    }   
+    }
 }
 
 @media only screen and (max-width:610px) and (min-width:360px) {
@@ -381,7 +385,7 @@ body {
         margin: 0;
         padding: 0;
     }
-    
+
     .HorizontalShelfItemContent {
         width: 330px;
         height: auto;
@@ -402,14 +406,14 @@ body {
     .NavBar .Center {
         display: none;
     }
-    
+
     .HorizontalShelfItemPic {
         width: 500px;
         height: 235.25px;
         margin: 0;
         padding: 0;
     }
-    
+
     .HorizontalShelfItemContent {
         width: 500px;
         height: auto;
@@ -431,7 +435,7 @@ body {
         width: 260px;
         height: 335.25px;
     }
-    
+
     .HorizontalShelfItemContent {
         width: 427px;
     }
