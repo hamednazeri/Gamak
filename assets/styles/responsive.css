@@ -19,7 +19,7 @@ body {
 }
 
 .NavBar {
-    height: 148px;
+    height: 101px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -28,6 +28,11 @@ body {
     position: sticky;
     top: 0;
     z-index: 100;
+}
+
+.SecondaryButton {
+    width: 140px;
+    height: 55px;
 }
 
 .Content {
@@ -40,7 +45,7 @@ body {
 
 .Header {
     width: 100%;
-    min-height: calc(100vh - 148px);
+    min-height: calc(100vh - 101px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -208,7 +213,7 @@ body {
 }
 
 .ContainerItem {
-    min-height: calc(100vh - 148px);
+    min-height: calc(100vh - 101px);
 }
 
 .ContainerItem h2 {
@@ -221,7 +226,6 @@ body {
     justify-content: space-around;
     width: 430px;
     height: 55px;
-    /* margin-top: 10%; */
     padding: 10px;
     margin: 5% 0;
 }
