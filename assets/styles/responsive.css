@@ -238,6 +238,21 @@ body {
     height: 55px;
 }
 
+.WrittenHeader {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh 0;
+}
+
+.WrittenPage{
+    margin: 0 5%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 .Footer {
     width: 100%;
     min-height: 250px;

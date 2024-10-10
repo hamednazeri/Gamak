@@ -83,3 +83,27 @@
     font-weight: 800;
     color: #003366;
 }
+
+.WrittenPage h1{
+    font-family: "YekanBakh";
+    font-size: 48px;
+    font-weight: 800;
+    color: #000000;
+    line-height: 60px;
+}
+
+.WrittenPage h2{
+    font-family: "YekanBakh";
+    font-size: 36px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 50px;
+}
+
+.WrittenPage p{
+    font-family: "YekanBakh";
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 40px;
+}
