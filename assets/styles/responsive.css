@@ -261,6 +261,23 @@ body {
     text-justify: inter-word;
 }
 
+.WrittenPage .VisualMeedia {
+    width: 60%;
+    margin: 2% 20%;
+}
+
+.WrittenPage .VisualMeedia video {
+    width: 100%;
+}
+
+.WrittenPage .VisualMeedia audio {
+    width: 100%;
+}
+
+.WrittenPage .VisualMeedia iframe {
+    width: 100%;
+}
+
 .Footer {
     width: 100%;
     min-height: 250px;
@@ -350,6 +367,11 @@ body {
     .SearchBar {
         width: 230px;
     }
+
+    .WrittenPage .VisualMeedia {
+        width: 100%;
+        margin: 2% 0;
+    }
 }
 
 @media only screen and (max-width:610px) and (min-width:360px) {
@@ -396,6 +418,11 @@ body {
     .SearchBar {
         width: 330px;
     }
+
+    .WrittenPage .VisualMeedia {
+        width: 100%;
+        margin: 2% 0;
+    }
 }
 
 @media only screen and (max-width:899px) and (min-width:610px) {
@@ -420,6 +447,11 @@ body {
         margin: 0;
         padding: 0;
     }
+
+    .WrittenPage .VisualMeedia {
+        width: 80%;
+        margin: 2% 10%;
+    }
 }
 
 @media only screen and (max-width:1479px) and (min-width:900px) {
@@ -438,6 +470,11 @@ body {
 
     .HorizontalShelfItemContent {
         width: 427px;
+    }
+
+    .WrittenPage .VisualMeedia {
+        width: 70%;
+        margin: 2% 15%;
     }
 }
 
