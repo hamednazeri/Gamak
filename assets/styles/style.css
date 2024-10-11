@@ -95,6 +95,47 @@ a {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.VerticalShelfMiniItem {
+    border-radius: 25px;
+    background-color: #99CCFF;
+}
+
+.VerticalShelfMiniItem .VerticalShelfMiniItemPic {
+    border-radius: 25px;
+}
+
+.VerticalShelfMiniItem .DownBar p {
+    font-family: "YekanBakh";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.VerticalShelfMiniItem h3 {
+    font-family: "YekanBakh";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 50px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.VerticalShelfMiniItemPic img {
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 18.75px;
+}
+
+.VerticalShelfMiniItem p {
+    font-family: "YekanBakh";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 37px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .HorizontalShelfItem {
     border-radius: 25px;
     background-color: #99CCFF;
@@ -102,6 +143,7 @@ a {
 
 .HorizontalShelfItem .HorizontalShelfItemPic {
     border-radius: 25px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
 }
 
 .HorizontalShelfItem .HorizontalShelfItemContent .DownBar p {
@@ -225,7 +267,7 @@ a {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.WrittenPage{
+.WrittenPage {
     font-family: "YekanBakh";
     font-style: normal;
     font-weight: 400;
@@ -233,4 +275,25 @@ a {
     line-height: 28px;
     text-align: right;
     color: #000000;
+}
+
+.WrittenPage .VisualMeedia {
+    border-radius: 25px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.WrittenPage .VisualMeedia video {
+    border-radius: 25px;
+}
+
+.WrittenPage .VisualMeedia audio {
+    border-radius: 25px;
+}
+
+.WrittenPage .VisualMeedia img {
+    border-radius: 25px;
+}
+
+.WrittenPage .VisualMeedia iframe {
+    border-radius: 25px;
 }
