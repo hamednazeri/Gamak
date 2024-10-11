@@ -37,16 +37,16 @@
       <h2 class="Heading2 SpanWarp">
         <span>ابزار</span> <span>توسعه</span> <span>فردی</span>
       </h2>
-      <button type="button" class="PrimaryButton">شروع کنید</button>
+      <button type="button" id="PrimaryButton" class="PrimaryButton">شروع کنید</button>
     </div>
 
     <!-- Container -->
-    <div class="Container">
+    <div id="Container" class="Container">
       <!-- VerticalShelf section -->
       <div class="ContainerItem">
         <h2 class="Heading2">بخش‌های گامک</h2>
         <div class="VerticalShelfSection">
-          <a class="VerticalShelfItem" href="/pages/Podcasts.html">
+          <a class="VerticalShelfItem" href="./pages/Podcasts.html">
             <div class="VerticalShelfItemPic">
               <img src="./assets/images/Podcast.jpg" alt="Podcast" />
             </div>
@@ -57,7 +57,7 @@
               <p>...</p>
             </div>
           </a>
-          <a class="VerticalShelfItem" href="pages/Articles.html">
+          <a class="VerticalShelfItem" href="./pages/Articles.html">
             <div class="VerticalShelfItemPic">
               <img src="./assets/images/Article.jpg" alt="Article" />
             </div>
@@ -68,7 +68,7 @@
               <p>...</p>
             </div>
           </a>
-          <a class="VerticalShelfItem" href="pages/Personality_Tests.html">
+          <a class="VerticalShelfItem" href="./pages/Personality_Tests.html">
             <div class="VerticalShelfItemPic">
               <img
                 src="./assets/images/Personality_Test.jpg"
@@ -82,7 +82,7 @@
               <p>...</p>
             </div>
           </a>
-          <a class="VerticalShelfItem" href="pages/Products.html">
+          <a class="VerticalShelfItem" href="./pages/Products.html">
             <div class="VerticalShelfItemPic">
               <img src="./assets/images/Products.jpg" alt="Products" />
             </div>
@@ -121,10 +121,10 @@
       <div class="Top">
         <div class="Col">
           <h2>صفحات کلیدی</h2>
-          <a href="/pages/Podcasts.html">پادکست‌ها و ویدئو انگیزشی</a>
-          <a href="/pages/Articles.html">مقالات و منابع</a>
-          <a href="/pages/Personality_Tests.html">ابزار‌های خودارزیابی</a>
-          <a href="/pages/Products.html">محصولات</a>
+          <a href="./pages/Podcasts.html">پادکست‌ها و ویدئو انگیزشی</a>
+          <a href="./pages/Articles.html">مقالات و منابع</a>
+          <a href="./pages/Personality_Tests.html">ابزار‌های خودارزیابی</a>
+          <a href="./pages/Products.html">محصولات</a>
         </div>
         <div class="Col">
           <h2>راه‌های ارتباطی</h2>
@@ -141,3 +141,16 @@
     </div>
   </body>
 </html>
+
+<script>
+  document.getElementById("PrimaryButton").addEventListener("click", function() {
+      var targetDiv = document.getElementById("Container");
+      var targetPosition = targetDiv.getBoundingClientRect().top + window.pageYOffset;
+      var offset = 100; 
+      window.scrollTo({
+          top: targetPosition - offset,
+          behavior: 'smooth'
+      });
+  });
+</script>
+
