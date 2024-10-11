@@ -317,6 +317,14 @@ body {
     margin: 2% 20%;
 }
 
+.WrittenPage a {
+    padding: 10px;
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+    white-space: nowrap;
+}
+
 .WrittenPage .VisualMeedia video {
     width: 100%;
 }
@@ -478,7 +486,7 @@ body {
         width: 100%;
         margin: 2% 0;
     }
-    
+
     .WrittenPage {
         margin: 0 5%;
     }

@@ -322,6 +322,13 @@ a {
     border-radius: 25px;
 }
 
+.WrittenPage a {
+    border-style: solid;
+    border-color: #000000;
+    color: #000000;
+    border-radius: 10px;
+}
+
 a:hover{
     color: #FF6600 !important;
 }
