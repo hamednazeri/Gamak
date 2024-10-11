@@ -274,6 +274,10 @@ body {
     width: 100%;
 }
 
+.WrittenPage .VisualMeedia img {
+    width: 100%;
+}
+
 .WrittenPage .VisualMeedia iframe {
     width: 100%;
 }
