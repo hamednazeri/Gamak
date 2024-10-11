@@ -108,6 +108,22 @@
     line-height: 50px;
 }
 
+.WrittenPage h4{
+    font-family: "YekanBakh";
+    font-size: 26px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 50px;
+}
+
+.WrittenPage h5{
+    font-family: "YekanBakh";
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 50px;
+}
+
 .WrittenPage li{
     font-family: "YekanBakh";
     font-size: 28px;
