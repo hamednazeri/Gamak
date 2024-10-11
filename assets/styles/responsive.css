@@ -307,7 +307,7 @@ body {
 }
 
 .WrittenPage {
-    margin: 0 5%;
+    margin: 0 15%;
     text-align: justify;
     text-justify: inter-word;
 }
@@ -478,6 +478,10 @@ body {
         width: 100%;
         margin: 2% 0;
     }
+    
+    .WrittenPage {
+        margin: 0 5%;
+    }
 }
 
 @media only screen and (max-width:899px) and (min-width:610px) {
@@ -506,6 +510,10 @@ body {
     .WrittenPage .VisualMeedia {
         width: 80%;
         margin: 2% 10%;
+    }
+
+    .WrittenPage {
+        margin: 0 5%;
     }
 }
 
