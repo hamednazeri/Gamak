@@ -24,6 +24,11 @@ a {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.PrimaryButton:hover{
+    background-color: #FFE811;
+    box-shadow: 0px 8.64px 14.4px rgba(0, 0, 0, 0.30);
+}
+
 .NavBar {
     background: #F2F2F2;
     border-radius: 0 0 25px 25px;
@@ -68,6 +73,11 @@ a {
     border-radius: 50px;
 }
 
+.SecondaryButton:hover{
+    background-color: #FFE811;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.30);
+}
+
 .VerticalShelfItem {
     border-radius: 25px;
     background-color: #99CCFF;
@@ -93,6 +103,10 @@ a {
     line-height: 50px;
     color: #000000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.VerticalShelfItem:hover{
+    background-color: #88BBEE;
 }
 
 .VerticalShelfMiniItem {
@@ -136,6 +150,10 @@ a {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.VerticalShelfMiniItem:hover{
+    background-color: #88BBEE;
+}
+
 .HorizontalShelfItem {
     border-radius: 25px;
     background-color: #99CCFF;
@@ -175,6 +193,9 @@ a {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.HorizontalShelfItem:hover{
+    background-color: #88BBEE;
+}
 
 .AboutSectionItems img {
     background: #FF6600;
@@ -216,7 +237,6 @@ a {
     outline: none;
     padding: 6px 0px;
     background: transparent;
-
     text-align: center;
     font-family: "YekanBakh";
     font-style: normal;
@@ -238,6 +258,10 @@ a {
     text-align: center;
     color: rgba(0, 0, 0, 0.5);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.SearchBar:hover{
+    background-color: #88BBEE;
 }
 
 .Footer {
@@ -296,4 +320,8 @@ a {
 
 .WrittenPage .VisualMeedia iframe {
     border-radius: 25px;
+}
+
+a:hover{
+    color: #FF6600 !important;
 }
